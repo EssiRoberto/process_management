@@ -1,6 +1,6 @@
 #!/bin/bash
 PROCESS=$1
-PID=$(pgrep "PROCESS")
+PID=$(pgrep "$PROCESS")
 if [ -z "$PID" ]; then
 	ECHO "$PROCESS is not running"
 else
