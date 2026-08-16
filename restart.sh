@@ -1,4 +1,4 @@
-#!bin/bash
+#!/bin/bash
 PID_FILE="/tmp/my_process.pid"
 if [ -f "$PID_FILE"]; then
 	PID=$(cat "SPID_FILE")
