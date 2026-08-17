@@ -1,6 +1,5 @@
 #!/bin/bash
-
-PID_FILE="/tmp/myprocess.pid"
+PID_FILE="/tmp/my_process.pid"
 
 if [ -f "$PID_FILE" ]; then
   PID=$(cat "$PID_FILE")
